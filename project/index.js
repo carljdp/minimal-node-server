@@ -17,11 +17,12 @@ try {
   //sslSetupTerminal.stdout.pipe(process.stdout);
   //sslSetupTerminal.stderr.pipe(process.stderr);
 
-  sslSetupTerminal.unref();
+  // test for succesful launch, then unref if planning to terminate this
+  //sslSetupTerminal.unref();
 } catch (error) {
   console.log("sslSetupTerminal failed to launch\n" + error.message);
 
-  ui.promptForKeyPressThenExit();
+  ui.promptForKeyPressThenExit("ERROR");
 } finally {
   process.exit(0);
 }
