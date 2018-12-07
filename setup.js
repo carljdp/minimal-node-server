@@ -1,3 +1,8 @@
+/*  Run everything to init the project 
+    - Check tools are installed: Mocha
+    - Gen certs for localhost via [questions | config] 
+*/
+
 const { spawn, exec } = require('child_process');
 
 

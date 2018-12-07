@@ -12,12 +12,13 @@
   },
   "keywords": [
     "node",
-    "javascript\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    "javascript"
   ],
   "author": "carljdp",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/carljdp/minimal-node-server/issues"
   },
-  "homepage": "https://github.com/carljdp/minimal-node-server#readme"
+  "homepage": "https://github.com/carljdp/minimal-node-server#readme",
+  "devDependencies": {}
 }
