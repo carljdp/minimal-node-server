@@ -4,8 +4,8 @@
   "description": "A minimal node server to learn the basics",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "run-dev": "node ./src/server/index.js",
+    "test": "./node_modules/.bin/mocha",
+    "dev": "node ./source/server/index.js",
     "project": "node ./project/index.js"
   },
   "repository": {
@@ -22,5 +22,10 @@
     "url": "https://github.com/carljdp/minimal-node-server/issues"
   },
   "homepage": "https://github.com/carljdp/minimal-node-server#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "pug": "^2.0.3"
+  }
 }

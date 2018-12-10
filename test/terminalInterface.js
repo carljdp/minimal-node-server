@@ -4,7 +4,7 @@ const assert = require('assert');
 const terminalInterface = require('../terminalInterface');
 
 describe('getAnswers', () => {
-    it('Should return the correct answers', (done) => {
+    it('Should return the correct answers given an array of questions', (done) => {
 
         // mock readline
         const createMockReadlineInterface = function(questionsCount) {
